@@ -1,0 +1,139 @@
+body {
+    max-width: 800px;
+    height: auto;
+    font-family: 'Rubik';
+    margin: auto;
+    box-shadow: -1px 1px 21px -1px rgba(0, 0, 0, 0.2);
+    direction: rtl;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+}
+
+img {
+    object-fit: contain;
+}
+
+header img {
+    margin-top: 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 32px 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+li a {
+    display: block;
+    border: 3px solid rgba(9, 173, 199, 0.5);
+    min-width: 150px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li:nth-child(2) {
+    margin: 0 12px;
+}
+
+li a:hover {
+    background-color: rgba(9, 173, 199, 0.5);
+
+}
+
+h1 {
+    font-size: 40px;
+    rotate: 10deg;
+    text-align: right;
+    font-weight: 800;
+
+}
+
+h2 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.3em;
+    margin: 16px 0;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#about {
+    padding: 0 80px;
+
+}
+
+.development {
+    margin-top: 56px;
+}
+
+.information {
+
+    margin: 0 32px 0 0;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.links {
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.link {
+    min-width: 220px;
+    margin-top: -12px;
+
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+.mentor {
+    margin-top: 40px;
+    background-image: linear-gradient(#fff 25%, rgba(9, 173, 199, 0.5) 25%);
+    padding: 0 80px;
+    display: flex;
+}
+
+.mentor .information {
+    align-self: flex-end;
+}
+
+
+.mentor .information a {
+    font-weight: 600;
+
+
+}
