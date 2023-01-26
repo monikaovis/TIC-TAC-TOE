@@ -1,13 +1,59 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Tic Tac Toe</title>
+<link href="StyleSheet.css" rel="StyleSheet">
 </head>
 <body>
+    <div id="header">
+        <img src="tic-tac-toePic.jpg" alt="Tic-Tac-Toe" width="400"> 
+    </div>
     <div id="menuBar">
-        <ul>
-            <li><a href="url">About</a></li>
+        <ul class="menuBar">
+            <li><a href="about.html">About</a></li>
             <li><a href="url">New Game</a></li>
         </ul>
     </div>
+    <div class="table">
+     <div id="r1c1" class="cellStyle">X</div>
+     <div id="r1c2" class="cellStyle">X</div>
+     <div id="r1c3" class="cellStyle">X</div>
+     <div id="r2c1" class="cellStyle">X</div>
+     <div id="r2c2" class="cellStyle">X</div>
+     <div id="r2c3" class="cellStyle">X</div>
+     <div id="r3c1" class="cellStyle">O</div>
+     <div id="r3c2" class="cellStyle">O</div>
+     <div id="r3c3" class="cellStyle">O</div>
+    </div>
+    <div id="info">
+        <div class="players">
+            <table>
+                <thead>
+                    <th id="titlePlayers">PLAYERS</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="playerX"> Player X</td>
+                        <td id="playerO"> Player O</td>
+                    </tr>
+                </tbody>
+                <tfoot id="finalScore">
+                    <tr>
+                        <th>The Winner Is:</th>
+                        <th id="winner">WINNER</th>
+                    </tr>            
+                </tfoot>
+            </table>
+        </div>
+        <div class="timer">
+            <p id="countDown">Time over in: 15</p>  
+        </div>
+        <div id="newGame">
+            <button><a href="first.html">New Game</a></button>
+        </div>
+    </div>
+    <div id="footer">&copy All rights reserved to </div>
+     
+    <script src="first.js"></script>
 </body>
 </html>
