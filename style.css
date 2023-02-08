@@ -69,6 +69,56 @@ h2 {
 
 }
 
+h3 {
+
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FF80A7;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}
+
+.cellStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+#r1c3, #r2c3, #r1c2, #r2c2 {
+    border-right: solid 2px #FF80A7;
+    border-bottom: solid 2px #FF80A7;
+}
+
+#r2c1, #r1c1 {
+    border-bottom: solid 2px #FF80A7;
+}
+
+#r3c2 {
+
+    border-right: solid 2px #FF80A7;
+}
+
+#r3c3 {
+
+    border-right: solid 2px #FF80A7;
+}
+
 p {
     font-size: 18px;
     line-height: 1.3em;
@@ -135,5 +185,21 @@ a:hover {
 .mentor .information a {
     font-weight: 600;
 
+
+}
+
+input[type="text"i] {
+    padding: 10px;
+    max-width: 150px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: solid 2px rgba(0, 0, 0, 1);
+
+}
+
+input[placeholder] {
+    font-size: 16px;
 
 }
