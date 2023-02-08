@@ -52,6 +52,7 @@ li:nth-child(2) {
 
 li a:hover {
     background-color: rgba(9, 173, 199, 0.5);
+    text-decoration: none;
 
 }
 
@@ -63,18 +64,100 @@ h1 {
 
 }
 
+
+
+
 h2 {
     margin: 0 0 8px 0;
     font-size: 24px;
 
 }
 
+h3 {
+
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FF80A7;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin: 0 16px;
+}
+
+#winner h3 {
+    color: #000;
+    text-shadow: none;
+    background-color: rgba(9, 173, 199, 0.5);
+    padding: 4px 8px;
+    font-weight: 500;
+    margin-top: -10px;
+
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro p {
+    max-width: 500px;
+    text-align: center;
+
+    margin: 0 0 20px 0;
+}
+
+.table {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}
+
+.cellStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+
+
+
+
+}
+
+#r1c3, #r2c3, #r1c2, #r2c2 {
+    border-right: solid 2px #FF80A7;
+    border-bottom: solid 2px #FF80A7;
+}
+
+#r2c1, #r1c1 {
+    border-bottom: solid 2px #FF80A7;
+}
+
+#r3c2 {
+
+    border-right: solid 2px #FF80A7;
+}
+
+#r3c3 {
+
+    border-right: solid 2px #FF80A7;
+}
+
 p {
-    font-size: 18px;
-    line-height: 1.3em;
+    font-size: 16px;
+    line-height: 1.4em;
     margin: 16px 0;
 
 }
+
 
 a {
     color: #000;
@@ -135,5 +218,41 @@ a:hover {
 .mentor .information a {
     font-weight: 600;
 
+
+}
+
+input[type="text"i] {
+    padding: 10px;
+    max-width: 150px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: solid 2px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+input[type="submit"i] {
+    padding: 10px;
+    margin-right: 8px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+
+}
+
+#winner {
+    margin-bottom: 24px;
+}
+
+#footer {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
 
 }

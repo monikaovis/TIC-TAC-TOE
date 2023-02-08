@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Tic Tac Toe </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="tic tac toe logo">
+    </header>
+    <ul>
+        <li><a href="home.html">משחק חדש </a></li>
+        <li><a href="#results">לוח תוצאות</a></li>
+        <li><a href="about.html">אודות</a></li>
+    </ul>
+    <div class="intro">
+
+
+        <h2>הגיע הזמן להתחיל לשחק!!!</h2>
+        <p>מטרת כל שחקן היא ליצור שלושה סימנים (איקס או עיגול) הנמצאים על שורה אחת טור אחד או אלכסון אחד.
+
+        </p>
+
+        <form id="titlePlayers">
+
+            <input type="text" id="player-X" name="fname" placeholder="שם משתתף/ת ה-X">
+            <h3>VS</h3>
+            <input type="text" id="player-O" name="fname" placeholder="שם משתתף/ת ה-O">
+
+        </form>
+    </div>
+
+    <div class="table">
+        <div id="r1c1" class="cellStyle">X</div>
+        <div id="r1c2" class="cellStyle">X</div>
+        <div id="r1c3" class="cellStyle">X</div>
+        <div id="r2c1" class="cellStyle">X</div>
+        <div id="r2c2" class="cellStyle">X</div>
+        <div id="r2c3" class="cellStyle">X</div>
+        <div id="r3c1" class="cellStyle">O</div>
+        <div id="r3c2" class="cellStyle">O</div>
+        <div id="r3c3" class="cellStyle">O</div>
+    </div>
+    <div id="bottomSection" class="intro">
+        <div class="timer">
+            <p id="countDown">Time over in: 15</p>
+        </div>
+        <div id="winner">
+            <h3> והנצחון הולך ל: </h3>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div id="footer">©2023 כל הזכויות שמורות לנו 😊 </div>
+
+    <script src="first.js"></script>
+</body>
+
+</html>
