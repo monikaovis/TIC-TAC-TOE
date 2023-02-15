@@ -70,6 +70,7 @@ h1 {
 h2 {
     margin: 0 0 8px 0;
     font-size: 24px;
+    text-align: left;
 
 }
 
@@ -155,6 +156,7 @@ p {
     font-size: 16px;
     line-height: 1.4em;
     margin: 16px 0;
+    text-align: left;
 
 }
 
