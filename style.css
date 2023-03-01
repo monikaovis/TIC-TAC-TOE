@@ -4,7 +4,7 @@ body {
     font-family: 'Rubik';
     margin: auto;
     box-shadow: -1px 1px 21px -1px rgba(0, 0, 0, 0.2);
-    direction: rtl;
+    direction: ltr;
 
 }
 
@@ -119,6 +119,7 @@ h3 {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     justify-content: center;
+    direction: rtl;
 }
 
 .cellStyle {
