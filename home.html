@@ -14,7 +14,7 @@
         <img src="images/logo.png" alt="tic tac toe logo">
     </header>
     <ul>
-        <li><a href="first.html">New Game</a></li>
+        <li><a href="home.html">New Game</a></li>
         <li><a href="#results">Score Board</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
@@ -35,26 +35,26 @@
     </div>
 
     <div class="table">
-        <div id="r1c1" class="cellStyle">X</div>
-        <div id="r1c2" class="cellStyle">X</div>
-        <div id="r1c3" class="cellStyle">X</div>
-        <div id="r2c1" class="cellStyle">X</div>
-        <div id="r2c2" class="cellStyle">X</div>
-        <div id="r2c3" class="cellStyle">X</div>
-        <div id="r3c1" class="cellStyle">O</div>
-        <div id="r3c2" class="cellStyle">O</div>
-        <div id="r3c3" class="cellStyle">O</div>
+        <div id="r1c1" class="cellStyle" onclick="play('r1c1')"></div>
+        <div id="r1c2" class="cellStyle" onclick="play('r1c2')"></div>
+        <div id="r1c3" class="cellStyle" onclick="play('r1c3')"></div>
+        <div id="r2c1" class="cellStyle" onclick="play('r2c1')"></div>
+        <div id="r2c2" class="cellStyle" onclick="play('r2c2')"></div>
+        <div id="r2c3" class="cellStyle" onclick="play('r2c3')"></div>
+        <div id="r3c1" class="cellStyle" onclick="play('r3c1')"></div>
+        <div id="r3c2" class="cellStyle" onclick="play('r3c2')"></div>
+        <div id="r3c3" class="cellStyle" onclick="play('r3c3')"></div>
+        <div id="lines" class=""></div>
     </div>
     <div id="bottomSection" class="intro">
         <div class="timer">
-            <p id="countDown">Time over in: 15</p>
+            <p id="countDown">Click To Start</p>
         </div>
         <div id="winner">
             <h3>And the winner is:</h3>
-
+            <span id="theWinner" class="cellStyle">?</span>
         </div>
-
-
+        
     </div>
     </div>
     <div id="footer">©2023 All rights reserved to us😊 </div>

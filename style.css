@@ -120,6 +120,64 @@ h3 {
     grid-template-rows: 100px 100px 100px;
     justify-content: center;
     direction: rtl;
+    position: relative;
+}
+
+#lines {
+    position: absolute;
+    justify-self: center;
+    background-color:rgba(9, 173, 199, 0.5);
+}
+
+.line-row-1{
+    width: 260px;
+    height: 3px;
+    top: 17%;
+}
+
+.line-row-2{
+    width: 260px;
+    height: 3px;
+    top:50%;
+}
+
+.line-row-3{
+    width: 260px;
+    height: 3px;
+    top: 84%;
+}
+
+.line-column-1{
+    height: 260px;
+    width: 3px;
+    top: 20px;
+    left: 62.3%;
+}
+
+.line-column-2{
+    height: 260px;
+    width: 3px;
+    top: 20px;
+}
+
+.line-column-3{
+    height: 260px;
+    width: 3px;
+    top: 20px;
+    left: 37.4%;
+}
+
+.line-diagonal-1{
+    width: 240px;
+    height:3px;
+    top:50%;
+    transform: skewY(-45deg);
+}
+.line-diagonal-2{
+    width: 240px;
+    height: 3px;
+    top:50%;
+    transform: skewY(45deg);
 }
 
 .cellStyle {
@@ -128,10 +186,11 @@ h3 {
     align-items: center;
     font-size: 40px;
     font-family: 'Permanent Marker', cursive;
+    cursor: pointer ;
+}
 
-
-
-
+#theWinner {
+    cursor: default;
 }
 
 #r1c3, #r2c3, #r1c2, #r2c2 {
@@ -144,8 +203,8 @@ h3 {
 }
 
 #r3c2 {
-
-    border-right: solid 2px #FF80A7;
+    
+    border-right: solid 2px #FF80A7;   
 }
 
 #r3c3 {
