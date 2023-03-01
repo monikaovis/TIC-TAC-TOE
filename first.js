@@ -27,7 +27,7 @@ function play(cellID){
    } else {   
    cell.innerText = 'o';
    }
-   // cell.onclick ="null";
+   cell.onclick ="null";
    cell.style.cursor = "default";
    // cell.style.pointer-events="none";
    clearInterval(startCount);
