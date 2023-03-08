@@ -1,5 +1,5 @@
 # TIC-TAC-TOE
-An online version of tic tac toe game was built as a group project by SheCodes WEB students using programming languages: HTML, CSS & JavaScript .   
+An online version of tic tac toe game was built as a group project by SheCodes WEB students.   
 
 ## Steps need to be taken:
 in order to play this unique version of TIC-TAC-TOE , you need to clone the code to the code reader on your computer (for example - vs code), and run the HTML page.
@@ -19,10 +19,10 @@ This Tic Tac Toe game is a simple yet fun implementation of the classic game. It
 
 ## Credits
 **Team Members**:
-<br>Team Leader & Mentor: ***[Shani Staretz](https://github.com/hakimiansh)***
+<br>- Team Leader & Mentor: ***[Shani Staretz](https://github.com/hakimiansh)***
 <br>**SheCoders**:
-<br> [Ayelet Nadan](https://github.com/ayeletnadan) 
-<br> [Avivit Damri-koren](https://github.com/AvivitDK)
-<br> [Monika Halpert](https://github.com/monikaovis)
-<br> [Hadar Hagag](https://github.com/HadarHagag)
+<br> - [Ayelet Nadan](https://github.com/ayeletnadan) 
+<br> - [Avivit Damri-koren](https://github.com/AvivitDK)
+<br> - [Monika Halpert](https://github.com/monikaovis)
+<br> - [Hadar Hagag](https://github.com/HadarHagag)
 <br>This project was carried out within the framework of **[SheCodes;](https://she-codes.org)**
