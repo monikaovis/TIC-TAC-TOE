@@ -3,7 +3,7 @@
 
 <head>
     <title> Tic Tac Toe </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -15,22 +15,25 @@
     </header>
     <ul>
         <li><a href="home.html">New Game</a></li>
-        <li><a href="#results">Score Board</a></li>
+        <li><a onclick="showScoreBoard()">Score Board</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
     <div class="intro">
 
 
         <h2>Let's Play!</h2>
-        <p>The first player to creat a row us the winner
+        <p>Each player has 15 seconds to play,<br> otherwise the turn goes to the other player. <br>
+            The first player to creat a row is the winner
         </p>
 
         <form id="titlePlayers">
 
-            <input type="text" id="player-X" name="fname" placeholder="Player Name-X">
+            <input type="text" id="player-X" name="fname" placeholder="Player Name-X" required>
             <h3>VS</h3>
-            <input type="text" id="player-O" name="fname" placeholder="Player Name-O">
-
+            <input type="text" id="player-O" name="fname" placeholder="Player Name-O" required>
+            <br>
+            <input type="button" id="sbmt" onclick="showBoard()" value="Start play">
+            
         </form>
     </div>
 
@@ -44,7 +47,7 @@
         <div id="r3c1" class="cellStyle" onclick="play('r3c1')"></div>
         <div id="r3c2" class="cellStyle" onclick="play('r3c2')"></div>
         <div id="r3c3" class="cellStyle" onclick="play('r3c3')"></div>
-        <div id="lines" class=""></div>
+        <div id="lines" ></div>
     </div>
     <div id="bottomSection" class="intro">
         <div class="timer">
@@ -53,13 +56,28 @@
         <div id="winner">
             <h3>And the winner is:</h3>
             <span id="theWinner" class="cellStyle">?</span>
+            <input type="button" id="playAgain" onclick="playAgain()" value="play again">
         </div>
+    </div>
+    <div id="scoreBoard">
+        <div class="intro">
+            <h2> players score </h2>
+        </div>
+        <div class="board">
+            <div class="boardStyle">
+                <div id="pX"  >player X:</div>
+                <div id="scoreX" class="score">0</div>
+            </div>
+            <div class="boardStyle">
+                <div id="pO" >player O:</div>
+                <div id="scoreO" class="score" >0</div>
         
+            </div>
+        </div> 
     </div>
-    </div>
-    <div id="footer">©2023 All rights reserved to us😊 </div>
+    <div id="footer">©2023 All rights reserved to us! hosted by <a href="https://she-codes.org" target="_blank" style="color: forestgreen;">SheCodes;</a> </div>
 
-    <script src="first.js"></script>
+    <script src="home.js"></script>
 </body>
 
 </html>
