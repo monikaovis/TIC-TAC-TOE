@@ -17,7 +17,7 @@ in order to play this unique version of TIC-TAC-TOE , you need to clone the code
 ## Conclusion
 This Tic Tac Toe game is a simple yet fun implementation of the classic game. It was developed using Html, Java script, and CSS in Visual Studio, and can be easily played Follow the instructions above to play the game and enjoy!
 
-## credits
+## Credits
 This project was carried out within the framework of **[SheCodes;](https://she-codes.org)**
 <br>**Team Members**:
 <br>Team Leader & Mentor:    ***[Shani Staretz](https://github.com/hakimiansh)***
