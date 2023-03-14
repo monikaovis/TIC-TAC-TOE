@@ -3,7 +3,7 @@ An online version of tic tac toe game was built as a group project by SheCodes W
 This Tic Tac Toe game is a simple yet fun implementation of the classic game. It was developed using Html, Java script, and CSS in Visual Studio, and can be easily played Follow the instructions to play the game and enjoy!
 
 ## Steps need to be taken:
-in order to play click on [TIC-TAC-TOE](https://hadarhagag.github.io/TicTacToe/) 
+in order to play click on [TIC-TAC-TOE]( https://ayeletnadan.github.io/TIC-TAC-TOE/) 
 
 ## Functionalitis
 This game is for two players. 
