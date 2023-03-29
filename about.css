@@ -1,0 +1,191 @@
+body {
+    max-width: 800px;
+    height: 1170px;
+    font-family: 'Rubik';
+    margin: auto;
+    box-shadow: -1px 1px 21px -1px rgba(0, 0, 0, 0.2);
+    direction: ltr;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+img {
+    object-fit: contain;
+    margin: 10 10 10 10;
+}
+
+header img {
+    margin-top: 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 32px 0 0 ;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    border: 3px solid rgba(9, 173, 199, 0.5);
+    min-width: 150px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer
+}
+
+li:nth-child(2) {
+    margin: 0 12px;
+    visibility: hidden;
+}
+
+li:nth-child(3) {
+    visibility: hidden;
+}
+
+li a:hover {
+    background-color: rgba(9, 173, 199, 0.5);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    rotate: 10deg;
+    font-weight: 800;
+    position: absolute;
+    right: 84px;
+    top: -33px;
+}
+
+h2 {
+    margin: 10 0 8px 0;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+h3 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FF80A7;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin: 0 16px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin: 16px 0;
+    text-align: left;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+#about {
+    padding: 0 80px;
+    position: relative;
+}
+
+.development {
+    margin-top: 20px;
+}
+
+.information {
+    margin: 0 40px 0 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.links {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link {
+    min-width: 220px;
+    margin-top: -20px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.mentor {
+    margin-top: 10px;
+    background-image: linear-gradient(#fff 25% , rgba(9, 173, 199, 0.5) 25%);
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.mentor .information {
+    align-self: flex-end;
+}
+
+
+.mentor .information a {
+    font-weight: 600;
+
+
+}
+#footer {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+
+}
+.Pshani {
+    margin: 10px 0 10px;
+}
+
+.ayelet {
+    margin: 20 120 20 0;
+}
+
+.monika {
+    margin: 0 20 20 110;
+}
+
+.hadar {
+    margin: 0 20 20 30;
+}
+
+.avivit {
+    margin: 20 120 0 0;
+}
+
+.shani {
+    margin: 0 20 20 110;
+}

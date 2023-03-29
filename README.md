@@ -1,24 +1,29 @@
 # TIC-TAC-TOE
-An online version of tic tac toe made by Shani Ayelet,Avivit, Hadar and Monika
+An online version of tic tac toe game was built as a group project by SheCodes WEB students.  
+This Tic Tac Toe game is a simple yet fun implementation of the classic game. It was developed using Html, Java script, and CSS in Visual Studio, and can be easily played Follow the instructions to play the game and enjoy!
 
-## Tic Tac Toe Game
-This project is a simple implementation of the popular game Tic Tac Toe, developed in Visual Studio using Html, Java script, and CSS language. The game is played between two players, who take turns marking their respective symbol (X or O) on a 3x3 grid. The player who succeeds in placing three of their symbols in a horizontal, vertical, or diagonal row wins the game.
+## Steps need to be taken:
+in order to play click on [TIC-TAC-TOE]( https://ayeletnadan.github.io/TIC-TAC-TOE/) 
 
-### GAME RULES:
-A player can choose between two symbols with his opponent, usual game uses “X” and “O”.
+## Functionalitis
+This game is for two players. 
 
-The player that gets to play first will get the "X" mark (we call him/her player 1) and the player that gets to play second will get the "O" mark (we call him/her player 2).
+### Links
+- **New Game** => reload the game page .
+- **Score Board** =>  a click reveals at the bottom of the page a score board that shows the number of wins each player has, another click hides the score board.
+- **About** => Opens a new Web page with the details of all the participants in the page construction.
 
-Player 1 and 2 take turns making moves with Player 1 playing mark “X” and Player 2 playing mark “O”.
-
-A player marks any of the 3x3 squares with his mark (“X” or “O”) and their aim is to create a straight line horizontally, vertically or diagonally with two intensions:
-a. One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.
-b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a draw/tie.
-
-### Conclusion
-This Tic Tac Toe game is a simple yet fun implementation of the classic game. It was developed using Html, Java script, and CSS in Visual Studio, and can be easily played Follow the instructions above to play the game and enjoy!
-
+#### Buttons:
+***Start Play*** - after filling in the players names, the 'Start Play' button will reveal the board game and the ability to play.
+<br> ***Play Again*** - allowing To play another round with the same players (In order to play a new game with new players click the link 'New Game').
 
 
-
-
+## Credits
+**Team Members**:
+<br>- Team Leader & Mentor: ***[Shani Staretz](https://github.com/hakimiansh)***
+<br>**SheCoders**:
+<br> - [Ayelet Nadan](https://github.com/ayeletnadan) 
+<br> - [Avivit Damri-koren](https://github.com/AvivitDK)
+<br> - [Monika Halpert](https://github.com/monikaovis)
+<br> - [Hadar Hagag](https://github.com/HadarHagag)
+<br>This project was carried out within the framework of **[SheCodes;](https://she-codes.org)**
