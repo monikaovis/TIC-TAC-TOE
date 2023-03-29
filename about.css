@@ -64,7 +64,8 @@ h1 {
     rotate: 10deg;
     font-weight: 800;
     position: absolute;
-    right: 30%
+    right: 84px;
+    top: -33px;
 }
 
 h2 {
@@ -109,6 +110,7 @@ a:hover {
 
 #about {
     padding: 0 80px;
+    position: relative;
 }
 
 .development {
