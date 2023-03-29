@@ -61,11 +61,10 @@ li a:hover {
 h1 {
     font-size: 40px;
     margin-top: 0;
-    margin-right: 40;
-    margin-bottom: 20;
     rotate: 10deg;
-    text-align: right;
     font-weight: 800;
+    position: absolute;
+    right: 30%
 }
 
 h2 {
@@ -183,4 +182,8 @@ a:hover {
 
 .avivit {
     margin: 20 120 0 0;
+}
+
+.shani {
+    margin: 0 20 20 110;
 }
